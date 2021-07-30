@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd0e0bb07b74f849b32b8a9abb7a797, type: 3}
+  m_Name: DataSpawnerEquip
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 8799922735958056073, guid: f2af0a9b0f71169479d8d29eeaf0781d, type: 3}
