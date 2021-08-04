@@ -17,7 +17,10 @@ public class Follower : MonoBehaviour
             {    
                 Vector3 dir = Vector3.right * touch.deltaPosition.x * speed * Time.deltaTime;
 
-                if(transform.position.x + dir.x > maxShift.x && transform.position.x + dir.x < maxShift.y)
+                if (touch.deltaPosition.x < 0) GetComponent<SpriteRenderer>().flipX = true;
+                else GetComponent<SpriteRenderer>().flipX = false;
+
+                if (transform.position.x + dir.x > maxShift.x && transform.position.x + dir.x < maxShift.y)
                     transform.position += dir;
             }
         }
